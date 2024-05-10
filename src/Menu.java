@@ -232,6 +232,33 @@ public class Menu {
 			}
 		}
 		
+		/*} else if  {
+		System.out.println("Não há vantagem de tipo ou fraqueza na batalha!");
+		System.out.println("Decidindo o vencedor no impar ou par:");
+		try {
+	        Thread.sleep(1000);
+	        menuPrincipal();
+	    } catch (InterruptedException e) {
+	        e.printStackTrace();
+	    }
+	
+	    Random random = new Random();
+	    boolean venceu = random.nextBoolean();
+	    if (venceu) {
+	    	System.out.println("  ____    _    ____ _____ _   _ ____      _    ____   ___  \r\n"
+					+ " / ___|  / \\  |  _ \\_   _| | | |  _ \\    / \\  |  _ \\ / _ \\ \r\n"
+					+ "| |     / _ \\ | |_) || | | | | | |_) |  / _ \\ | | | | | | |\r\n"
+					+ "| |___ / ___ \\|  __/ | | | |_| |  _ <  / ___ \\| |_| | |_| |\r\n"
+					+ " \\____/_/   \\_\\_|    |_|  \\___/|_| \\_\\/_/   \\_\\____/ \\___/ ");
+			
+			System.out.println("PARABÉNS, você ganhou e capturou o pokemon: " + pokemonInimigo.nome);
+			meusPokemons.add(pokemonInimigo);
+			todosPokemons.remove(pokemonInimigo);
+	    } else {
+	        System.out.println("Você perdeu!");
+	    }*/
+	}
+	    
 		
 		
 	}
